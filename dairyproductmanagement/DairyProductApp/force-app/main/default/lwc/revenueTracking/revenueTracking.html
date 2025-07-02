@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Product Revenue Tracking" icon-name="standard:money">
+        <div class="slds-p-horizontal_medium">
+            <lightning-datatable
+                data={revenueData}
+                columns={revenueColumns}
+                key-field="id">
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

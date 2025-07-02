@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Inventory Management" icon-name="standard:product">
+        <div class="slds-p-horizontal_medium">
+            <lightning-datatable
+                data={inventory}
+                columns={columns}
+                key-field="id">
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

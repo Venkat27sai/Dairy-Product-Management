@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Dairy Products List" icon-name="standard:product">
+        <div class="slds-p-horizontal_medium">
+            <lightning-datatable
+                data={dairyProducts}
+                columns={productColumns}
+                key-field="id">
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>
